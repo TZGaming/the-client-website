@@ -4,37 +4,65 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Embassay of the Free Mind</title>
-    <ul>
-        <li><a href="#">[Foto van het logo]</a></li>
-        <li><a href="#">Tickets</a></li>
-        <li><a href="#">Catalogus</a></li>
-        <li><a href="#">Organisatie</a></li>
-        <li><a href="#">Donatie</a></li>
-        <li><input type="search" id="search" name="search"></li>
-        <li><button>Zoeken</button></li>
-    </ul>
+    <link rel="stylesheet" href="styles/styles.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"/>
 </head>
+
+
 <body>
+    <header>
+    <div class="header-container">
+        <div class="logo">
+            <a href="#"><img src="assets/img/logo.png" alt="Logo" height="80px"></a>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">Tickets</a></li>
+                <li><a href="#">Catalogus</a></li>
+                <li><a href="#">Organisatie</a></li>
+                <li><a href="#">Donatie</a></li>
+                <li><input type="search" id="search" name="search" placeholder="Zoek een boek..."></li>
+                <li><button><i class="fa-solid fa-magnifying-glass"></i></button></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
     <section>
-        <hr>
-        <div class="book-caroussel">
+        <article class="book-caroussel">
+    <div class="book-content">
+        <div class="book-text">
             <h1>[Boek naam]</h1>
             <h4>Hier komt de beschrijving<br>ook met word-wrap</h4>
-            <h2>Daarnaast ergens komt dan de foto</h2>
             <button>Volgende boek knop</button>
-            <br><br><hr>
         </div>
+        <div class="book-image">
+            <img src="assets/img/boek_preview/Boek1.jpg" alt="boek" width="300px">
+        </div>
+    </div>
+</article>
+
     </section>
 
-    <section>
-        <h2>Grid foto + tekst 1</h2>
-        <h2>Grid foto + tekst 2</h2>
-        <h2>Grid foto + tekst 3</h2>
-        <hr>
-    </section>
+<section>
+    <div class="book-grid">
+        <div class="book">
+            <h1>Boek 1</h1>
+            <img src="assets/img/boek_preview/Boek1.jpg" alt="Boek 1" />
+        </div>
+        <div class="book">
+            <h1>Boek 2</h1>
+            <img src="assets/img/boek_preview/Boek2.jpg" alt="Boek 2" />
+        </div>
+        <div class="book">
+            <h1>Boek 3</h1>
+            <img src="assets/img/boek_preview/Boek3.jpg" alt="Boek 3" />
+        </div>
+    </div>
+</section>
+
 
     <footer>
-        <h3>Footer</h3>
         <ul>
             <li><a href="#">Adres</a></li>
             <li><a href="#">Openingstijden</a></li>
@@ -42,10 +70,10 @@
             <li><a href="#">FAQ</a></li>
             <li><a href="#">Vacatures</a></li>
             <li><a href="#">Privacybeleid</a></li>
-            <li><button>Social link 1</button></li>
-            <li><button>Social link 2</button></li>
-            <li><button>Social link 3</button></li>
-            <li><button>Social link 4</button></li>
+            <li><button><i class="fa-brands fa-linkedin"></i></button></li>
+            <li><button><i class="fa-brands fa-instagram"></i></button></li>
+            <li><button><i class="fa-brands fa-facebook"></i></button></li>
+            <li><button><i class="fa-brands fa-youtube"></i></button></li>
         </ul>
     </footer>
 </body>
