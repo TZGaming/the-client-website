@@ -77,7 +77,6 @@ nav ul {
 
 input#search {
     border: none;
-    font-family: Muli, sans-serif;
     border-radius: 5px;
     padding: 5px;
     margin-right: -60px;
@@ -168,6 +167,7 @@ footer ul {
     height: auto;
     border-radius: 10px;
     position: relative;
+    cursor: pointer;
     transition: scale 0.15s ease;   
 }
 
@@ -267,6 +267,7 @@ summary i {
     max-width: 100%;
     height: auto;
     border-radius: 4px;
+    cursor: pointer;
     transition: scale 0.15s ease;
 }
 
