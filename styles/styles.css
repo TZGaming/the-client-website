@@ -11,10 +11,10 @@ body {
     margin: 0;
     background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
                 url(../assets/img/slideshow/1.jpg) no-repeat center center fixed;
-    background-size: cover; /* altijd hele viewport bedekken */
-    background-attachment: fixed; /* belangrijk: houdt background vast */
+    background-size: cover;
+    background-attachment: fixed;
     background-color: black;
-    padding-bottom: 4em; /* iets meer dan footerhoogte (3.5em) */
+    padding-bottom: 4em; /* iets meer dan footerhoogte (4em) */
 }
 
 body section {
@@ -36,8 +36,6 @@ header {
     /* justify-content: space-between; */
     align-items: center;
     width: 100%;
-
-    /* Alleen rechts padding, niet links */
     padding-right: 1em;
 }
 
