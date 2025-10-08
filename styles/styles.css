@@ -8,6 +8,7 @@ a {
 }
 
 body {
+    width:100%;
     margin: 0;
     background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
                 url(../assets/img/slideshow/1.jpg) no-repeat center center fixed;
@@ -149,12 +150,15 @@ footer {
     flex-direction: column;
     align-items: flex-end;
     img {
-        max-width: 300px;
+        width:90%;
         height: auto;
         border-radius: 10px;
         position: relative;
         cursor: pointer;
         transition: scale 0.15s ease;   
+        @media (min-width: 760px) {
+            max-width: 300px;
+        }
     }
 }
 
@@ -174,7 +178,7 @@ button.nextBookBtn {
     color: white;
     font-size: 20px;
     position: absolute;
-    bottom: 200px;
+    bottom: 225px;
 }
 
 .nextBookBtn i {
@@ -226,13 +230,16 @@ summary {
 }
 
 .book-grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
+
     gap: 50px;
     text-align: center;
     width: 90%;
     margin: 20px auto;
     height: auto;
+    @media (min-width: 724px) {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
 }
 
 .book {
