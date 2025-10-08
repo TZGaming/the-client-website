@@ -10,7 +10,7 @@ Als opdracht heb ik gekregen dat we de website (https://embassyofthefreemind.com
   * [Licentie](#licentie)
 
 ## Beschrijving
-Voor mijn website heb ik een donker accent gekozen, ik vind dat dat er erg "ancient" uit ziet, en geeft de impressie dat het oude items zijn. De pagina heeft een zoek balk waar je boeken kan zoeken die op de home page staan. De catalogus pagina moet nog gebouwd worden, maar krijgen ook een zoek balk die snel door alle boeken kan zoeken.
+Voor mijn website heb ik een donker accent gekozen, ik vind dat dat er erg "ancient" uit ziet, en geeft de impressie dat het oude items zijn. De pagina heeft een zoek balk waar je boeken kan zoeken die op de home page staan. De catalogus pagina moet nog gebouwd worden, maar krijgt ook een zoekbalk die snel door alle boeken kan zoeken.
 
 Hier zijn screenshots van meerdere apparaten:
 
@@ -20,7 +20,7 @@ Hier zijn screenshots van meerdere apparaten:
 
 ## Kenmerken
 <!-- Bij Kenmerken staat welke technieken zijn gebruikt en hoe. Wat is de HTML structuur? Wat zijn de belangrijkste dingen in CSS? Wat is er met Javascript gedaan en hoe? Misschien heb je een framwork of library gebruikt? -->
-De website is primair in HTML, CSS en JavaScript gebouwt. Op dit moment werkt de zoekbalk door de code in de JS, De rest van de items op de website zoals de layout en hover effecten, zijn geconfigureerd in de CSS. De structuur in de HTML is goed overzichtelijk, alles staat in aparte sections op de website zodat er genoeg ruimte tussen de items komen te staan.
+De website is primair in HTML, CSS en JavaScript gebouwt. De zoekbalk gaat werken door code in de JS, De rest van de items op de website zoals de layout en hover effecten, zijn geconfigureerd in de CSS. De structuur in de HTML is goed overzichtelijk, alles staat in aparte sections op de website zodat er genoeg ruimte tussen de items komen te staan.
 
 
 ## Licentie
